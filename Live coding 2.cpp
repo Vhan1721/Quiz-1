@@ -17,7 +17,7 @@ int main() {
 	cin >> beratSemangka;
 
 	totalBerat = beratApel + beratJeruk + beratSemangka;
-	totalHarga = (beratApel * hargaApel) + (beratJeruk + hargaJeruk) + (beratSemangka + hargaSemangka);
+	totalHarga = (beratApel * hargaApel) + (beratJeruk * hargaJeruk) + (beratSemangka * hargaSemangka);
 
 	if (totalBerat > 10) {
 		diskon = 0.05;
